@@ -1,0 +1,40 @@
+.hero {
+  height: 100vh; /* Ocupa toda la altura del viewport */
+  background: linear-gradient(135deg, #ff3d81 0%, #5a3eeb 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5em;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 1.5em;
+}
+
+.hero-cta {
+  padding: 0.75em 2em;
+  font-size: 1.1rem;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.hero-cta:hover {
+  background-color: #fff;
+  color: black;
+}
